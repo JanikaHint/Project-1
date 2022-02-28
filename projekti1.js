@@ -57,6 +57,7 @@ function newToDo() {
 }
 
 // When clicking a list item add checked.
+var list = document.querySelector("ul");
 list.addEventListener(
   "click",
   function (ev) {
